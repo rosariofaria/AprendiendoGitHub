@@ -1,2 +1,0 @@
-# AprendiendoGitHub
- aprendiendo 
