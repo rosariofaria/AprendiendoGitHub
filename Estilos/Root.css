@@ -14,8 +14,8 @@
       justify-content: center;
     }
     
-    .column {
-      width: 100%;
+    .cuerpo .bloque2{
+      flex-direction: column;
     }
   }
 
