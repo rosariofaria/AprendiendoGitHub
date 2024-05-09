@@ -113,23 +113,7 @@ header{
     background-color: var(--color-4);
   }
 
-  .column {
-    float: left;
-    width: 33.33%;
-    padding: 15px;
-    margin: 20px;
-    background-color: var(--color-3);
-    color:black;
-    overflow: auto;
-  }
-  
-  /* Columnas Despues  */
-  .row::after {
-    content: "";
-    display: table;
-    clear: both;
 
-  }
   
   #footerDiv {
     background-color:var(--color-1);

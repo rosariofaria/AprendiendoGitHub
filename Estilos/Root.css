@@ -1,6 +1,7 @@
 @import url(Aprendiendo.css);
 @import url(nav.css);
 @import url(colores.css);
+@import url(cuerpo.css);
 
 /*BreakPoints de la pagina*/
 @media screen and (max-width:702px) {
