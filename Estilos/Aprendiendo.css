@@ -59,17 +59,33 @@
   /* Google Fonts termina */
 
   /* header */
-  header {
-    background-color: #f1f1f1;
-    padding: 20px;
-    color:#8a2be2;
+header .emblema{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  background-color:var(--color-1) ;
+  padding: 20px;
+
+}
+.titulo{
+    color:var(--color-4);
+    margin:20px;
+    font-size: 75px;
+    font-family: "Sacramento", cursive;
     text-align: center;
-  }
+}
   
   /* top nav bar */
   .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color:var(--color-2);
+    color: var(--color-4);
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -93,11 +109,16 @@
   }
   
   /* Tres columnas al lado de la otra  */
+  .cuerpo{
+    background-color: var(--color-4);
+  }
+
   .column {
     float: left;
     width: 33.33%;
     padding: 15px;
-    background-color: ghostwhite;
+    margin: 20px;
+    background-color: var(--color-3);
     color:black;
     overflow: auto;
   }
@@ -111,7 +132,8 @@
   }
   
   #footerDiv {
-    background-color:gainsboro;
+    background-color:var(--color-1);
+    width: 100%;
     overflow: hidden;
     text-align: auto center;
     display: inline-flex;
@@ -119,13 +141,3 @@
   }
 
   /* Responsive vertical */
-  @media screen and (max-width:700px) {
-    .topnav{
-      flex-direction: column;
-      justify-content: center;
-    }
-    
-    .column {
-      width: 100%;
-    }
-  }
