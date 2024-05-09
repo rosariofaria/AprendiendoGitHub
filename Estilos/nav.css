@@ -9,8 +9,9 @@ header{
 header .emblema{
 
     width: 200px;
-    height: 210px;
+    height: 200px;
     margin: 30px;
+    border-radius: 50%;
 }
 
 header div{
@@ -29,3 +30,5 @@ header h1{
 header p{
     margin: 0 0 20px;
 }
+
+header
