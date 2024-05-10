@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
   body {
@@ -58,18 +59,36 @@
   /* Google Fonts termina */
 
   /* header */
-  .header {
-    background-color: #f1f1f1;
-    padding: 20px;
-    color:blueviolet;
+header .emblema{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  background-color:var(--color-1) ;
+  padding: 20px;
+
+}
+.titulo{
+    color:var(--color-4);
+    margin:20px;
+    font-size: 75px;
+    font-family: "Sacramento", cursive;
     text-align: center;
-  }
+}
   
   /* top nav bar */
   .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color:var(--color-2);
+    color: var(--color-4);
     text-align: center;
+    display: flex;
+    justify-content: space-around;
   }
   
   /* topnav links */
@@ -80,6 +99,7 @@
     text-align: auto center;
     padding: 14px 16px;
     text-decoration: none;
+    flex-grow: 1;
   }
   
   /* Cambia el color cuando hover */
@@ -89,25 +109,15 @@
   }
   
   /* Tres columnas al lado de la otra  */
-  .column {
-    float: left;
-    width: 33.33%;
-    padding: 15px;
-    background-color: ghostwhite;
-    color:black;
-    overflow: auto;
+  .cuerpo{
+    background-color: var(--color-4);
   }
-  
-  /* Columnas Despues  */
-  .row::after {
-    content: "";
-    display: table;
-    clear: both;
 
-  }
+
   
   #footerDiv {
-    background-color:gainsboro;
+    background-color:var(--color-1);
+    width: 100%;
     overflow: hidden;
     text-align: auto center;
     display: inline-flex;
@@ -115,8 +125,3 @@
   }
 
   /* Responsive vertical */
-  @media screen and (max-width:600px) {
-    .column {
-      width: 100%;
-    }
-  }
