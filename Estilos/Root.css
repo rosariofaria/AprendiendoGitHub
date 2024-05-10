@@ -17,6 +17,10 @@
     .column {
       width: 100%;
     }
+    ul {
+      flex-direction: column;
+      width: fit-content;
+    }
   }
 
 /*Fuente para el titulo*/
