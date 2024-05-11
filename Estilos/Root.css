@@ -2,6 +2,7 @@
 @import url(nav.css);
 @import url(colores.css);
 @import url(cuerpo.css);
+@import url(adoptame_page.css);
 
 /*BreakPoints de la pagina*/
 @media screen and (max-width:702px) {
@@ -15,6 +16,9 @@
     }
     
     .cuerpo .bloque2{
+      flex-direction: column;
+    }
+    div .perritos .cachorro{
       flex-direction: column;
     }
   }

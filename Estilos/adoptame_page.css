@@ -1,0 +1,27 @@
+div .perritos .cachorro img{
+    height: 400px;
+    width:  400px;
+    padding: 20px;
+    background-color: var(--color-2);
+    border-radius: 20%;
+}
+
+div .perritos .cachorro{
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--color-3);
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    justify-content:baseline;
+}
+
+.cuerpo .perritos .cachorros .texto{
+    font-size: 80px;
+
+}
+
+.cuerpo .perritos .ver_mas{
+    margin: 0;
+    padding: 20px 0;
+}
