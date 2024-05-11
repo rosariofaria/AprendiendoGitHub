@@ -7,7 +7,7 @@ var Telefono = document.getElementById("telefono")
 var email = document.getElementById("email")
 var mensaje = document.getElementById("mensaje")
 var termino = document.getElementById("termino")
-var error = document.getElementById("Error")
+var error = document.getElementById("error")
 
 
 /*DECLARACION DE LAS FUNCIONES PARA VALIDAR*/
@@ -17,19 +17,19 @@ function EnviarForm(){
     var mensajesError = [];
 
     if(nombre.value === null || nombre.value === ''){
-        mensajesError.push('Ingrese su Nombre');
+        mensajesError.push('Por favor ingrese su Nombre');
     }
 
     if(apellido.value === null || apellido.value === ''){
-        mensajesError.push('Ingrese su Apellido');
+        mensajesError.push('Por favor ingrese Apellido');
     }
 
     if(sexo.value === false || sexo.value === ''){
-        mensajesError.push('Indique su sexo');
+        mensajesError.push('Por favor ingrese el sexo');
     }
 
     if(Telefono.value === null || Telefono.value === ''){
-        mensajesError.push('Indique su numero de telefono');
+        mensajesError.push('Por favor ingrese su numero de telefono');
     }
 
     if(mensaje.value === null || mensaje.value === ''){

@@ -8,6 +8,7 @@ body {
   }
   */
 
+/*DEFINIENDO EL AREA DEL FORMULARIO*/
   form {
   /*  background-color: white;*/
     border-radius: 10px;
@@ -36,6 +37,7 @@ body {
     margin-right: 10px;
   }
   
+/*DEFINIENDO EL AREA DE LOS CAMPOS*/
   input[type="text"],
   input[type="email"],
   input[type="number"],
@@ -47,17 +49,18 @@ body {
     border-radius: 5px;
     box-sizing: border-box;
   }
-  
+
+/*DEFINIENDO EL FOCUS DE LOS CAMPOS*/
   input[type="text"]:focus,
   input[type="email"]:focus,
   input[type="number"]:focus,
-  input[type="radio"]:focus,
   textarea:focus {
     border-color: #9673FF;
     outline: none;
   }
-  
-  button {
+
+/*DEFINIENDO EL DISEÑO DEL BOTON ENVIAR*/
+button {
     padding: 10px 20px;
     background-color: #9673FF;
     border: none;
