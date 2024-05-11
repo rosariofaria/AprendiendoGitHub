@@ -6,6 +6,11 @@ div .perritos .cachorro img{
     border-radius: 20%;
 }
 
+div .perritos .cachorro img:hover{
+    animation: rubberBand;
+    animation-duration: 1s; 
+}
+
 div .perritos .cachorro{
     border-bottom-width: 10px;
     border-bottom-style: solid;
