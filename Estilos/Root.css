@@ -3,6 +3,7 @@
 @import url(colores.css);
 @import url(cuerpo.css);
 @import url(adoptame_page.css);
+@import url(donacionesPage.css);
 
 /*BreakPoints de la pagina*/
 @media screen and (max-width:1280px) {

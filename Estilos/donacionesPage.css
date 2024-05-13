@@ -1,0 +1,38 @@
+.cuerpo{
+    padding: 20px;
+}
+
+.merch{
+    border-style: solid;
+    border-width: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+ 
+}
+
+.cuerpo .merch .remera img{
+    width: 300px;
+}
+
+.cuerpo .merch .remera img:hover{
+    animation: pulse;
+    animation-duration: 1s; 
+}
+
+.cuerpo .merch .remera {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--color-3);
+    border-radius: 10%
+}
+
+.cuerpo .merch .remera a{
+    text-align: center;
+}
