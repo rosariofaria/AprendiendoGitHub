@@ -5,15 +5,22 @@
 }
 
 .cuerpo .subtitulo{
-    margin: 0px;
+    margin: 20px 0 20px 0;
     text-align: center;
 }
 
-.cuerpo .sb1,.texto{
+.cuerpo .subtitulo,.texto{
     color: var(--color-1);
 }
 .cuerpo div .texto p{
-    margin: 0;
+    margin: 0px;
+    padding: 10px;
+
+    text-align: center;
+}
+
+.texto{
+    font-size: 25px;
 }
 
 .cuerpo .bloque{
@@ -32,18 +39,21 @@
 .cuerpo .bloque2{
     background-color: var(--color-3);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .cuerpo .bloque2 .sb2{
     color: var(--color-1);
     text-align: center;
+
 }
 
 .cuerpo .bloque2 img{
     width: 400px;
-    height: 400px;
+    height: 100%;
     border-radius: 40px;
+    margin: 30px;
 }
 .waveDown{
     width: 100%;
