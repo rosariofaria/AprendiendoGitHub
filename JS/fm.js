@@ -5,11 +5,13 @@ var apellido = document.getElementById('apellido');
 var telefono = document.getElementById("telefono");
 var email = document.getElementById("email");
 var error = document.getElementById('error');
+const $submit = document.getElementById('submit');
 
 /*DECLARACION DE LAS FUNCIONES PARA VALIDAR*/
-function enviarform(){
- 
-    var mensajesError = [];
+var form = document.getElementById('formulario');
+    form.addEventListener('submit', function(evn){
+       evn.preventDefault();
+       var mensajesError = [];
 
     if(nombre.value === ''){
         mensajesError.push('Por favor ingrese su Nombre');
@@ -30,4 +32,11 @@ function enviarform(){
     error.innerHTML = mensajesError.join(', ');
 
     return false;
-}
+});
+
+document.addEventListener("click", (e)=>{
+    if(e.target === $submit){
+        e.preventDefault();
+        console.log('Hola Mundo');
+    }
+});
