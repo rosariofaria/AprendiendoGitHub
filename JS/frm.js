@@ -31,8 +31,8 @@ function validarinputs(){
         return false;
     }
 
-    if($sexo.value === null || $sexo.value === false){
-        alert("Por favor Indique el sexo");
+    if(!document.querySelector('input[name="sexo"]:checked')) {
+        alert('Por favor indique el sexo');
         return false;
     }
 
@@ -52,15 +52,11 @@ function validarinputs(){
     }
 
     if($termino.checked === false){
-        alert("Por favor indique la razon del contacto o un asunto..");
+        alert("Por favor acepte los terminos");
         return false;
     }
 
- /*   if(!document.querySelector('input[name="sexo"]:checked')) {
-        alert('Por favor indique el sexo');
-        return false;
-    }
-*/
+
 
 /*VALIDANDO EXPRESIONES*/
     if(!nombreRegex.test($nombre.value)){
@@ -103,6 +99,5 @@ document.addEventListener("click", (e)=>{
     if(e.target === $submit){
         e.preventDefault();
         validarinputs();
-       /* alert('Datos recibidos y enviados correctamente');*/
     }
 });
