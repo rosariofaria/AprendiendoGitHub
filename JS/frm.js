@@ -89,8 +89,13 @@ function validarinputs(){
         return false;
     } 
 
+    var mensajito = "Hola, "+$nombre.value+" "+$apellido.value+" Pronto nos pondremos en contacto con vos!";
+    alert(mensajito);
+    console.log(mensajito);    
+    formulario.reset();
 
     return true
+
 }
 
 /*VALIDANDO QUE FUNCIONE EL BOTON ENVIAR Y QUE NO SE ENVIE NADA POR DEFECTO*/
