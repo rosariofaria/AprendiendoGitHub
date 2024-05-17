@@ -1,10 +1,14 @@
-.cuerpo{
+.cuerpoDonaciones{
     padding: 20px;
 }
 
+.cuerpoDonaciones .texto{
+    text-align: center;
+}
+/*Diseño de remeras*/
 .merch{
-    border-style: solid;
-    border-width: 10px;
+    /*border-style: solid;
+    border-width: 10px;*/
     width: 100%;
     display: flex;
     justify-content: center;
@@ -35,4 +39,31 @@
 
 .cuerpo .merch .remera a{
     text-align: center;
+}
+
+/*Diseño de formas de pago*/
+.cuerpoDonaciones .formasDePago li{
+    display: flex;
+    align-items: center;
+}
+
+.cuerpoDonaciones .formasDePago img{
+    width: 100px;
+}
+
+.cuerpoDonaciones .subtitulo{
+    margin-top: 50px;
+}
+
+.cuerpoDonaciones .formasDePago{
+   /* border-style: solid;
+    border-width: 10px;*/
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 20px;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
 }
