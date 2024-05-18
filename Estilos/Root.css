@@ -35,9 +35,17 @@
       grid-template-columns: 100%;
   
   }
+  .slideBarInn img{
+    height: 400px;
+  }
 
   }
 
+  @media screen and (max-width:400px){
+    .slideBarInn img{
+      height: 200px;
+    }
+  }
 
 /*Fuente para el titulo*/
 .sacramento-regular {

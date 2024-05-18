@@ -84,3 +84,21 @@ header{
 #NaricesFriasSpan {
   color:#7469B6;
 }
+
+/*SlideBar edicion*/
+.slideBar{
+  overflow: hidden;
+}
+
+.slideBarInn{
+  display: flex;
+  flex-direction: row;
+  transition: all 0.5s ease-in;
+}
+
+.slideBarInn img{
+  flex-shrink: 0;
+
+  width: 100%;
+  height: 60vh;
+}

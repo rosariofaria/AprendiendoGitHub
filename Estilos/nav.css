@@ -32,11 +32,4 @@
   }
 
 
-  #footerDiv {
-    background-color:var(--color-1);
-    width: 100%;
-    overflow: hidden;
-    text-align: auto center;
-    display: inline-flex;
-    padding: 14px 16px;;
-  }
+
