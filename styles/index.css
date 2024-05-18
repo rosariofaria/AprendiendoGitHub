@@ -1,0 +1,233 @@
+:root {
+	--color-primaryPurple: #7469b6;
+	--color-secondaryLightPurple: #ad88c6;
+	--color-secondaryPink: #e1afd1;
+	--color-secondaryWhitePink: #ffe6e6;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+	background-color: var(--color-secondaryWhitePink);
+	margin: 0;
+	color: var(--color-primaryPurple);
+	/* font-size: 25px; */
+}
+.headerContainer .mainLogo {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+.headerContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+	background-color: var(--color-primaryPurple);
+	padding: 20px;
+}
+.headerTitle {
+	color: var(--color-secondaryWhitePink);
+	margin: 20px;
+	font-size: 75px;
+	font-family: "Sacramento", cursive;
+	text-align: center;
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: var(--color-secondaryLightPurple);
+	color: var(--color-secondaryWhitePink);
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+}
+
+.navbar a {
+	color: #f2f2f2;
+	padding: 14px 0;
+	text-decoration: none;
+	flex-grow: 1;
+}
+
+.navbar a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.mainContainer {
+	font-size: 25px;
+}
+.motivesParagraph {
+	font-weight: 700;
+}
+.motivesSection {
+	text-align: center;
+}
+.welcomeSection {
+	padding: 20px 40px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.motivesSection {
+	background-color: var(--color-secondaryPink);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 24px;
+}
+.motiveswaveUp {
+	width: 100%;
+	position: relative;
+	top: 8px;
+	padding: 0%;
+}
+.motivesSection p {
+	font-size: 25px;
+}
+.motivesSubtitle {
+	color: var(--color-primaryPurple);
+	text-align: center;
+}
+
+.motivesDogPhoto {
+	width: 400px;
+	height: 100%;
+	border-radius: 40px;
+	margin: 30px;
+}
+.motiveswaveDown {
+	width: 100%;
+	position: relative;
+	bottom: 4px;
+	padding: 0%;
+}
+.shelterSection {
+	font-size: 20px;
+	padding: 40px;
+	text-align: center;
+}
+
+.footerSection {
+	display: flex;
+	column-gap: 20px;
+	padding: 10px 0;
+	background-color: var(--color-primaryPurple);
+	color: var(--color-secondaryPink);
+	width: 100%;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+.footerSection a {
+	color: #f2f2f2;
+	text-decoration: none;
+}
+.footerSection a:hover {
+	color: var(--color-secondaryLightPurple);
+}
+.dogsSection {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	padding: 20px;
+	gap: 10px;
+}
+
+.dogCardImg {
+	height: 250px;
+	width: 250px;
+	padding: 20px;
+	background-color: var(--color-secondaryLightPurple);
+	border-radius: 20%;
+}
+
+.dogCardImg:hover {
+	animation: rubberBand;
+	animation-duration: 1s;
+}
+
+.dogCard {
+	background-color: var(--color-secondaryPink);
+	border-radius: 10%;
+	display: flex;
+	padding: 40px;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.dogCard .texto {
+	font-size: 30px;
+}
+
+.merchSection {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	list-style: none;
+	flex-wrap: wrap;
+	column-gap: 20px;
+	row-gap: 20px;
+	margin: 40px 0 120px 0;
+}
+
+.merchImg {
+	width: 300px;
+}
+
+.merchImg:hover {
+	animation: pulse;
+	animation-duration: 1s;
+}
+
+.remera {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: space-evenly;
+	background-color: var(--color-secondaryPink);
+	border-radius: 10%;
+	height: 400px;
+}
+
+.remera a {
+	text-align: center;
+}
+
+/*BreakPoints de la pagina*/
+@media screen and (max-width: 1280px) {
+	.dogsSection {
+		display: grid;
+		grid-template-columns: 100%;
+	}
+}
+@media screen and (max-width: 702px) {
+	.headerContainer {
+		flex-direction: column;
+	}
+
+	.navbar {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.motivesSection {
+		flex-direction: column;
+	}
+	.dogCard {
+		flex-direction: column;
+	}
+	.dogsSection {
+		display: flex;
+		flex-direction: column;
+		grid-template-columns: 100%;
+	}
+	.footerSection {
+		flex-direction: column;
+		row-gap: 20px;
+		padding: 20px 35px;
+	}
+}
