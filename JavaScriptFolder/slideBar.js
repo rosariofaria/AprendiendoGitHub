@@ -12,4 +12,4 @@ setInterval(function(){
     if (index>lenImg.length-1){
         index = 0
     }
-},1000)
+},5000)
