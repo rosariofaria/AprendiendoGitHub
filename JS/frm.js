@@ -72,7 +72,7 @@ function validarinputs(){
     } 
 
     if(!telefonoRegex.test($telefono.value)){
-        alert("Ingrese su Apellido en formato correcto");
+        alert("Ingrese su Telefono en formato correcto");
         $telefono.style.border = "2px solid red";
         return false;
     } 
