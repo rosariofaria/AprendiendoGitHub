@@ -2,6 +2,7 @@
 @import url(nav.css);
 @import url(colores.css);
 @import url(cuerpo.css);
+<<<<<<< HEAD
 @import url(adoptame_page.css);
 @import url(donacionesPage.css);
 
@@ -14,6 +15,10 @@
 }
 
 }
+=======
+
+/*BreakPoints de la pagina*/
+>>>>>>> parent of 7deeddf (commit actualizamos la pagina y ordenamos)
 @media screen and (max-width:702px) {
     header{
         flex-direction: column;
@@ -24,6 +29,7 @@
       justify-content: center;
     }
     
+<<<<<<< HEAD
     .cuerpo .bloque2{
       flex-direction: column;
     }
@@ -44,6 +50,10 @@
   @media screen and (max-width:400px){
     .slideBarInn img{
       height: 200px;
+=======
+    .column {
+      width: 100%;
+>>>>>>> parent of 7deeddf (commit actualizamos la pagina y ordenamos)
     }
   }
 
