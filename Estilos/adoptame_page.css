@@ -1,6 +1,6 @@
 div .perritos .cachorro img{
-    height: 400px;
-    width:  400px;
+    height: 250px;
+    width:  250px;
     padding: 20px;
     background-color: var(--color-2);
     border-radius: 20%;
@@ -30,8 +30,8 @@ div .perritos .cachorro{
     justify-content:space-evenly;
 }
 
-.cuerpo .perritos .cachorros .texto{
-    font-size: 80px;
+.texto3{
+    font-size: 500px;
 
 }
 
